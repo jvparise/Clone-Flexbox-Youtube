@@ -1,0 +1,205 @@
+@import url("./global.css");
+*{
+    font-family: 'Roboto', sans-serif;;
+}
+#container{
+
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px;
+    background-color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;   
+}
+#start{
+    display: flex;
+    gap: 24px 24px;
+}
+#bt-menu{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: transparent;
+    background:transparent;
+}
+#center{
+    display: flex;
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+    justify-content: flex-end;
+}
+#bt-search{
+    width: 57px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    padding: 0px;
+    
+}
+#bt-notification{
+    align-items: center;
+    background:transparent;
+    border: transparent;
+
+}
+#bt-video{
+    align-items: center;
+    background:transparent;
+    border: transparent;
+
+}
+#bt-avatar{
+    align-items: center;
+    background:transparent;
+    border: transparent;
+}
+#end{
+    display: flex;
+    width: 130px;
+    height: 34px;
+    gap: 24px 24px; 
+    justify-content: flex-end;
+}
+main{
+    width: 1440px;
+    height: 1204px;
+    display: flex;
+    background-color:white;   
+}
+section{
+    width: 902px;
+    height: 42px;
+    justify-content:flex-start;
+    padding: 24px 84px; 
+
+}
+#mn-video{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+iframe{
+    display: flex;
+    justify-content: flex-start;
+}
+#bt-profile{
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    border: transparent;
+}
+#bt-profile button{
+    border: transparent;
+}
+#bt-sign-in{
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: transparent;
+    background: red;
+    color: #CCC;
+    font-size: 14px;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+#bt-dontlike{
+    border: transparent;
+    background:transparent;
+}
+#bt-like{
+    border: transparent;
+    background:transparent;
+}
+#bt-download{
+    border: transparent;
+    background: transparent;
+}
+#bt-share{
+    border: transparent;
+    background: transparent;
+}
+#description{
+    color: #8a8989;
+}
+.mn-video-spacebutton{
+    display: flex ;
+    row-gap: 10px;
+    border: transparent;
+    background: transparent;
+    align-items: center;
+}
+.mn-video-spacebutton p{
+    display: flex;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+#bt-profile-spacebutton{
+    display:flex;
+    border: transparent;
+    row-gap: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+#bt-profile-spacebutton button{
+    display: flex;
+    border: transparent;
+    background:transparent;
+
+}
+#mn-video p{
+    display: flex;
+    border: transparent;
+    background:transparent;
+
+}
+.mn-video-side{
+    padding: 24px 0px; 
+    margin: none;
+    background:transparent;
+    border: transparent;
+    
+}
+.video-side{
+    display: flex;
+    
+}
+#profile-side{
+    font-size: 12px;
+    color: #515151;
+    font-family: Roboto;       
+    font-size: 12px;       
+    font-style: normal;    
+    font-weight: 400;      
+    line-height: normal;
+    width: 196px;
+}
+.video-side img{
+    width: 160px;
+    height: 90px;
+    padding: 0px 16px 16px 0px;
+    
+}
+#video-title{
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 196px;
+height: 32px;
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis;
+justify-self: start;
+
+}
+.video-side-layout{
+    
+}
